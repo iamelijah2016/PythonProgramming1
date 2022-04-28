@@ -1,8 +1,5 @@
-print("Roses are red, violets are blue.")
+def greet_function(name):
+    print("Have a nice day, " + name + "!")
 
-if 10 > 7:
-    print("Ten is greater than seven!")
-if 16 < 42:
-    print("Sixteen is less than forty-two!")
 
-print("A long time ago in a galaxy far, far away...")
+greet_function("Junrey")
