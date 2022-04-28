@@ -1,16 +1,14 @@
-# This is a sample Python script.
+# character_job = "pilot"
+# character_ride = "plane"
+# character_souvenir = "fruits"
+# character_pet = "lion"
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+character_job = "pirate"
+character_ride = "ship"
+character_souvenir = "gold"
+character_pet = "parrot"
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("There was once a " + character_job + " who loved adventure.")
+print("The " + character_job + " would take her " + character_ride + " to unknown places.")
+print("She brings home a lot of " + character_souvenir + ".")
+print("Then she goes home to her pet " + character_pet + ", Chuckles.")
